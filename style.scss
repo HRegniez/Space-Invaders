@@ -1,0 +1,40 @@
+$clr-prim1: #1c1f21ff;
+$clr-prim2: #3d3d3dff;
+$clr-prim3: #7d2826ff;
+$clr-prim4: #99241eff;
+$clr-prim5: #026c7cff;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+h1 {
+    margin: 2rem;
+}
+
+.grid {
+    width: 602px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.invader {
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.shooter {
+    background-color: red;
+}
+
